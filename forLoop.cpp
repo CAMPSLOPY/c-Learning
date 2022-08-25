@@ -4,10 +4,10 @@ using namespace std;
 int main()
 
 {
+    int sum= 0;
     for (int i = 1; i <= 10; i++)
-    {
-        cout << "print hello there " << endl;
+    { sum += i; // is the same as sum = sum + i
     }
-
+    cout << " sum of 1 to 10 =" << sum << endl;
     return 0;
 }
